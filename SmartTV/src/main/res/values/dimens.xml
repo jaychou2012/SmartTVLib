@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="picker_column_horizontal_padding">8dp</dimen>
+    <dimen name="picker_item_height">32dp</dimen>
+    <dimen name="picker_item_spacing">32dp</dimen>
+    <dimen name="picker_separator_horizontal_padding">4dp</dimen>
+</resources>
