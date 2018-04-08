@@ -1,20 +1,19 @@
-package com.tandong.smarttv.ui;
+package com.tandong.smarttvdemo.ui;
 
 import android.os.Bundle;
 
-import com.tandong.smarttv.R;
-import com.tandong.smarttv.adapter.ListAdapter;
-import com.tandong.smarttv.base.BaseActivity;
+import com.tandong.smarttvdemo.R;
+import com.tandong.smarttvdemo.adapter.ListAdapter;
+import com.tandong.smarttvdemo.base.BaseActivity;
 import com.tandong.smarttv.view.AutoVerticalGridView;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class VerGridActivity extends BaseActivity {
-    @Bind(R.id.verticalgridview)
+    @BindView(R.id.verticalgridview)
     AutoVerticalGridView verticalGridView;
     private ListAdapter listAdapter;
     private List<String> list;

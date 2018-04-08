@@ -1,4 +1,4 @@
-package com.tandong.smarttv.base;
+package com.tandong.smarttvdemo.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,7 +10,6 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
-
 
     public void showToast(String text) {
         Toast.makeText(this, text, Toast.LENGTH_SHORT).show();

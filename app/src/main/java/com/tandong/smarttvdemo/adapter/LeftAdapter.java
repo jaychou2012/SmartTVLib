@@ -1,4 +1,4 @@
-package com.tandong.smarttv.adapter;
+package com.tandong.smarttvdemo.adapter;
 
 import android.animation.TimeInterpolator;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.OvershootInterpolator;
 import android.widget.FrameLayout;
-import com.tandong.smarttv.R;
+import com.tandong.smarttvdemo.R;
 import com.tandong.smarttv.view.ScrollTextView;
 import com.whatjay.recyclerview.adapter.BaseSmartAdapter;
 import com.whatjay.recyclerview.viewholder.SmarViewHolder;

@@ -1,4 +1,4 @@
-package com.tandong.smarttv.base;
+package com.tandong.smarttvdemo.base;
 
 import android.app.Application;
 

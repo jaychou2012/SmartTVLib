@@ -1,4 +1,4 @@
-package com.tandong.smarttv.ui;
+package com.tandong.smarttvdemo.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.tandong.smarttv.R;
-import com.tandong.smarttv.adapter.LeftAdapter;
-import com.tandong.smarttv.adapter.ListAdapter;
-import com.tandong.smarttv.base.BaseActivity;
+import com.tandong.smarttvdemo.R;
+import com.tandong.smarttvdemo.adapter.LeftAdapter;
+import com.tandong.smarttvdemo.adapter.ListAdapter;
+import com.tandong.smarttvdemo.base.BaseActivity;
 import com.tandong.smarttv.view.AutoVerticalGridView;
 import com.tandong.smarttv.view.BaseGridView;
 import com.tandong.smarttv.view.OnChildSelectedListener;
@@ -20,13 +20,13 @@ import com.whatjay.recyclerview.adapter.BaseSmartAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ListActivity extends BaseActivity {
-    @Bind(R.id.avgv)
+    @BindView(R.id.avgv)
     AutoVerticalGridView autoVerticalGridView;
-    @Bind(R.id.avgv_list)
+    @BindView(R.id.avgv_list)
     AutoVerticalGridView autoVerticalGridViewList;
     private ListAdapter listAdapter;
     private LeftAdapter leftAdapter;

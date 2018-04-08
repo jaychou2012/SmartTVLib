@@ -1,4 +1,4 @@
-package com.tandong.smarttv.ui;
+package com.tandong.smarttvdemo.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,19 +9,19 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.tandong.smarttv.R;
-import com.tandong.smarttv.adapter.ListAdapter;
-import com.tandong.smarttv.base.BaseActivity;
+import com.tandong.smarttvdemo.R;
+import com.tandong.smarttvdemo.adapter.ListAdapter;
+import com.tandong.smarttvdemo.base.BaseActivity;
 import com.tandong.smarttv.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity {
-    @Bind(R.id.rv)
+    @BindView(R.id.rv)
     RecyclerView recyclerView;
     private ListAdapter listAdapter;
     private List<String> list;

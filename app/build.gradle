@@ -3,18 +3,14 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.tandong.smarttv"
-        minSdkVersion 15
+        applicationId "com.tandong.smarttvdemo"
+        minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        javaCompileOptions {
-            annotationProcessorOptions {
-                includeCompileClasspath = true
-            }
-        }
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -29,7 +25,8 @@ dependencies {
     implementation 'com.android.support:support-v4:27.1.0'
     implementation 'com.android.support:design:27.1.0'
     implementation 'com.android.support:recyclerview-v7:27.1.0'
-    implementation 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     implementation 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'com.github.jaychou2012:SmartRecyclerView:1.01'
     implementation project(path: ':SmartTV')

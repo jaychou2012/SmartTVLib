@@ -1,4 +1,4 @@
-package com.tandong.smarttv.adapter;
+package com.tandong.smarttvdemo.adapter;
 
 import android.animation.TimeInterpolator;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.tandong.smarttv.R;
+import com.tandong.smarttvdemo.R;
 import com.tandong.smarttv.utils.Utils;
 import com.tandong.smarttv.view.ScrollTextView;
 import com.whatjay.recyclerview.adapter.BaseSmartAdapter;

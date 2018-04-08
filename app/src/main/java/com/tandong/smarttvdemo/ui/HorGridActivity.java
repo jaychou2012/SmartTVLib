@@ -1,20 +1,20 @@
-package com.tandong.smarttv.ui;
+package com.tandong.smarttvdemo.ui;
 
 import android.os.Bundle;
 
-import com.tandong.smarttv.R;
-import com.tandong.smarttv.adapter.HorListAdapter;
-import com.tandong.smarttv.base.BaseActivity;
+import com.tandong.smarttvdemo.R;
+import com.tandong.smarttvdemo.adapter.HorListAdapter;
+import com.tandong.smarttvdemo.base.BaseActivity;
 import com.tandong.smarttv.view.AutoHorizontalGridView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class HorGridActivity extends BaseActivity {
-    @Bind(R.id.horizontalgridview)
+    @BindView(R.id.horizontalgridview)
     AutoHorizontalGridView horizontalGridView;
     private HorListAdapter listAdapter;
     private List<String> list;
